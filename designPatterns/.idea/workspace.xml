@@ -55,6 +55,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Demo.java" line="9" class="com.holy.behavior.CommandPattern.Demo" package="com.holy.behavior.CommandPattern">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -64,91 +81,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FactoryDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryDemo.java">
+      <file leaf-file-name="Demo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="378">
+            <state line="10" column="27" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+              <folding>
+                <marker date="1461659796396" expanded="true" signature="152:291" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawAPI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/structure/BridgePattern/DrawAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recommend.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/recommend.txt">
+      <file leaf-file-name="Subject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="65" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+            <state line="18" column="28" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+              <folding>
+                <marker date="1461661795565" expanded="true" signature="348:412" placeholder="{...}" />
+                <marker date="1461661795565" expanded="true" signature="455:495" placeholder="{...}" />
+                <marker date="1461661795565" expanded="true" signature="532:625" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="principle.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/principle.txt">
+      <file leaf-file-name="ObserverOne.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/ObserverOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2751">
+            <state line="12" column="11" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactoryProducer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryProducer.java">
+      <file leaf-file-name="Demo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="441">
+            <state line="11" column="53" selection-start="318" selection-end="318" vertical-scroll-proportion="0.26923078" vertical-offset="0" max-vertical-offset="858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Product.java">
+      <file leaf-file-name="ObserverTwo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/ObserverTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="294">
+            <state line="13" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+              <folding>
+                <marker date="1461661711446" expanded="true" signature="174:248" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="44" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RealProduct.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealProduct.java">
+      <file leaf-file-name="ShapeMaker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/ShapeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="693">
+            <state line="27" column="1" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractFactory.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/AbstractFactory.java">
+      <file leaf-file-name="Square.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27794117" vertical-offset="0" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealBuilding.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealBuilding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="171" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Computer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Computer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="357">
+            <state line="7" column="23" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -167,44 +192,62 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/singleton.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/lazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/SyncLazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/HungrySingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/DCLSingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/experience.txt" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/HugrySingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/Packing.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/Wrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/Bottle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/Burger.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/ColdDrink.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/VegBurger.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/meatBurger.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/coffee.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/juice.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/Meal.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/MealBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/builderPattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/PrototypePattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/PrototypePattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/PrototypePattern/Circle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/PrototypePattern/Square.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/PrototypePattern/ShapeCache.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/createPattern/PrototypePattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/create/PrototypePattern/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/holy/recommend.txt" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/demo/Shape.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/demo/Factory.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/demo/Car.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/demo/CarFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/demo/RealFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/demo/FactoryDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/demo/Computer.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/Computer.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Computer.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Building.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Office.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Dormitory.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Protactor.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Car.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealProduct.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealBuilding.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryProducer.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/holy/principle.txt" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/proxyPattern/file.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/proxyPattern/ProxyFile.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/proxyPattern/RealFile.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/proxyPattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Stock.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/BuyStock.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/SellStock.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Broker.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/create/builderPattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/DeawAPI.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/RedCicle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/DrawAPI.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/RedCircle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/GreenCircle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/Circle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/BridgePattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Circle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Square.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/FacadePattern/ShapeMaker.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/ObserverOne.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/ObserverTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Subject.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-9" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -234,7 +277,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,13 +332,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="createPattern" />
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="holy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="holy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behavior" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,15 +393,27 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/holy/structure" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\java\designPatterns\src\com\holy\createPattern\abstractFactoryPattern" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.holy.createPattern.PrototypePattern" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FactoryDemo (1)">
-    <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.holy.createPattern.singletonPatter.HelloWorld" />
+  <component name="RunManager" selected="Application.Demo (5)">
+    <configuration default="false" name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.holy.create.builderPattern.Demo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -329,8 +428,30 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.holy.createPattern.factoryPattern.FactoryDemo" />
+    <configuration default="false" name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.holy.behavior.CommandPattern.Demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="designPatterns" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.holy.structure.BridgePattern.Demo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,8 +466,24 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FactoryDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.holy.createPattern.abstractFactoryPattern.FactoryDemo" />
+    <configuration default="false" name="Demo (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.holy.structure.FacadePattern.Demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="designPatterns" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Demo (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.holy.behavior.ObserverPattern.Demo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -488,16 +625,20 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FactoryDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FactoryDemo (1)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Demo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Demo (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Demo (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Demo (4)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Demo (5)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.FactoryDemo (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FactoryDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Demo (5)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Demo (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Demo (2)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -532,30 +673,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19411123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35114503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19411123" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23336968" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16239317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.23379384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="410" width="1920" height="220" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22137405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="410" width="1920" height="220" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -581,207 +722,390 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/Bottle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="378">
+        <state line="8" column="22" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/Burger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/ColdDrink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/VegBurger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/MeatBurger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/Juice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/Meal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="8" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="798">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/MealBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/factoryPattern/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="173" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/factoryPattern/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/factoryPattern/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/factoryPattern/FactoryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/factoryPattern/RealFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/PrototypePattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="25" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/PrototypePattern/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+          <folding>
+            <marker date="1461639700796" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/PrototypePattern/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+          <folding>
+            <marker date="1461639700614" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/PrototypePattern/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+          <folding>
+            <marker date="1461639700652" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/PrototypePattern/ShapeCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <folding>
+            <element signature="e#225#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/PrototypePattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/holy/recommend.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="65" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+        <state line="2" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.07540395" vertical-offset="0" max-vertical-offset="557">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/principle.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/proxyPattern/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2751">
+        <state line="6" column="16" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryProducer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/proxyPattern/ProxyFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="441">
+        <state line="15" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="609">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/proxyPattern/RealFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="294">
+        <state line="20" column="5" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="630">
+          <folding>
+            <marker date="1461642006975" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1461642006975" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/proxyPattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="693">
+        <state line="6" column="4" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/AbstractFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="315">
+        <state line="13" column="52" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding>
+            <marker date="1461643371797" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1461643371797" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/SellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealBuilding.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="693">
+        <state line="16" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/Broker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="171" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="357">
+        <state line="17" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="609">
+          <folding>
+            <marker date="1461643511132" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1461643511132" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/CommandPattern/BuyStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Computer.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="357">
+        <state line="443" column="23" selection-start="15169" selection-end="15174" vertical-scroll-proportion="0.0" vertical-offset="8399" max-vertical-offset="26040">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/LazySingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/create/builderPattern/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="128" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/SyncLazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/HugrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/singletonPatter/DCLSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/RealFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/FactoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="185" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/factoryPattern/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="173" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Dormitory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state line="13" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryProducer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/BridgePattern/GreenCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+        <state line="9" column="53" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/BridgePattern/RedCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="171" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state line="9" column="92" selection-start="191" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/BridgePattern/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="693">
+        <state line="14" column="5" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/BridgePattern/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
+        <state line="12" column="25" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding>
+            <marker date="1461657340320" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/BridgePattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding>
+            <marker date="1461658016425" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/StrategyPattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/RealBuilding.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+        <state line="6" column="16" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/FactoryDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+        <state line="10" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/recommend.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="65" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="8" column="44" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/principle.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2751">
+        <state line="7" column="23" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holy/createPattern/abstractFactoryPattern/AbstractFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/ShapeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27794117" vertical-offset="0" max-vertical-offset="680">
+        <state line="27" column="1" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/FacadePattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding>
+            <marker date="1461659796396" expanded="true" signature="152:291" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/structure/BridgePattern/DrawAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/ObserverOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="11" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/ObserverTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="50" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding>
+            <marker date="1461661711446" expanded="true" signature="174:248" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+          <folding>
+            <marker date="1461661795565" expanded="true" signature="348:412" placeholder="{...}" />
+            <marker date="1461661795565" expanded="true" signature="455:495" placeholder="{...}" />
+            <marker date="1461661795565" expanded="true" signature="532:625" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holy/behavior/ObserverPattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="53" selection-start="318" selection-end="318" vertical-scroll-proportion="0.26923078" vertical-offset="0" max-vertical-offset="858">
           <folding />
         </state>
       </provider>
