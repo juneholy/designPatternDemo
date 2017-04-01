@@ -1,7 +1,7 @@
 package com.holy.structure.proxyPattern;
 
 /**
- * Created by houlin.jiang on 16-4-26.
+ * Created by holy on 2017/3/24.
  */
 public interface File {
     void open();

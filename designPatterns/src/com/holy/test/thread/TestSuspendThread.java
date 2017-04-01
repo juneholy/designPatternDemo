@@ -1,4 +1,4 @@
-package com.holy.test;
+package com.holy.test.thread;
 
 /**
  * Created by houlin.jiang on 17-3-3.
